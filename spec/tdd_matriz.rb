@@ -8,7 +8,7 @@ class Test_Matriz < Test::Unit::TestCase
 	def test_mostrar
 	
 		assert([[1, 2],[3, 4]] == Matriz.new(2,2).to_s(1,2,3,4))				# |
-		assert_equal(0, [[1, 2],[3, 4]] <=> Matriz.new(2,2).to_s(1,2,3,4))	# 3 formas distintas de hacer lo mismo
+		assert_equal(0, [[1, 2],[3, 4]] <=> Matriz.new(2,2).to_s(1,2,3,4))		# 3 formas distintas de hacer lo mismo
 		assert_equal([[1, 2],[3, 4]], Matriz.new(2,2).to_s(1,2,3,4))			# |
 		
 		assert_equal([[1, 2, 3], [4, 5, 6], [7, 8, 9]], Matriz.new(3,3).to_s(1,2,3,4,5,6,7,8,9))
