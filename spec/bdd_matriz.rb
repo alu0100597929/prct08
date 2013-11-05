@@ -1,5 +1,4 @@
 
-
 require "rspec"
 require "./matriz.rb"
 
