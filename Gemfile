@@ -1,8 +1,6 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-gem 'guard'
+gem 'rspec'
+gem 'rake'
 gem 'guard-rspec'
 gem 'guard-bundler'
-gem 'guard-gitpusher'
-gem 'rake'
-gem 'rspec'
