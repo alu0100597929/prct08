@@ -12,8 +12,3 @@ desc "Ejecutar las espectativas de la clase Matriz"
 task :local do
   sh "rspec --format documentation -Ilib -Ispec spec/bdd_matriz.rb"
 end
-
-desc "Ejecutar los test de la clase Matriz"
-task :local do
-  sh "rspec --format documentation -Ilib -Ispec spec/tdd_matriz.rb"
-end
