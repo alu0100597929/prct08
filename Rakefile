@@ -9,7 +9,7 @@ require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new
 task :default => :spec
  
-desc "install gems"
+desc "instalando gemas"
 task :install do
         sh "bundle install"
 end
