@@ -1,6 +1,7 @@
 
 require "./matriz.rb"
 require "test/unit"
+require "rspec"
 
 
 class Test_Matriz < Test::Unit::TestCase
